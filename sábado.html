@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sábado Inesquecível 💜</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #a18cd1, #fbc2eb);
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3.2em;
+      margin-bottom: 10px;
+      color: #fff59d;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+
+    p {
+      font-size: 1.4em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      animation: slideUp 1.8s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 30px;
+      margin-top: 30px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      animation: zoomIn 2s ease-in-out;
+    }
+
+    @keyframes zoomIn {
+      from { transform: scale(0.9); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .emoji {
+      font-size: 2em;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 1em;
+      opacity: 0.9;
+    }
+
+    .gallery img {
+      width: 100px;
+      border-radius: 10px;
+      margin: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Que Sábado Foi Esse!? ✨</h1>
+    <p>Sthe, Kauane, Vini... vocês são demais! 😄</p>
+
+    <div class="card">
+      <p><span class="emoji">🍧</span> O açaí na Barra tava simplesmente <strong>PERFEITO</strong>!</p>
+      <p>Risadas, bagunça e a vibe lá em cima 🍓💬</p>
+    </div>
+
+    <div class="card">
+      <p><span class="emoji">✝️</span> O Crisma foi um momento <strong>muito especial</strong></p>
+      <p>Mesmo q vc ficou fazendo a prova kkkkk 😅</p>
+    </div>
+
+    <div class="card">
+      <p><span class="emoji">🕊️</span> E a Missa das 18h… cheia de paz e energia boa</p>
+      <p>Fechamos o sábado do jeito mais abençoado possível 💜</p>
+    </div>
+
+    <div class="gallery">
+      <!-- Você pode substituir as URLs pelas suas próprias imagens depois -->
+      <img src="https://cdn-icons-png.flaticon.com/512/1046/1046754.png" alt="Açaí">
+      <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Igreja">
+      <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="Coração">
+    </div>
+
+    <p style="font-weight: bold;">Valeu por esse dia incrível! Bora repetir logo logo?</p>
+
+    <div class="footer">
+      — Com carinho,<br> quem viveu tudo isso com vocês 😎
+    </div>
+  </div>
+</body>
+</html>
